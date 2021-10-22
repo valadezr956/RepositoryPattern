@@ -19,8 +19,8 @@ namespace WebAPI.Configuration
                 {
                     foreach (var detail in dest.Details)
                     {
-                        CreateMap<OrderDET, OrderDETDto>();
-                        src.Details.Add((OrderDET)detail);
+                        //CreateMap<OrderDET, OrderDETDto>();
+                        //src.Details.Add((OrderDET)detail);
                     }
                 });
         }
